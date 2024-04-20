@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const storeData = require('../services/storeData');
 const getData = require('../services/getHistories');
 
-const collectionName = 'predictions-test';
+const collectionName = 'predictions';
 
 async function postPredictHandler(request, h) {
   const { image } = request.payload;
